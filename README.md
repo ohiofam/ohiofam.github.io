@@ -1,3 +1,3 @@
 # MohitPics
-link:
+link
 ohiofam.github.io
