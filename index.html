@@ -229,8 +229,7 @@
 
     <section class="about">
       <h1>About</h1>
-      <p>Hi im the Aura King, and im here to take ur account, contact, credit/bank details and/or your social security number. If any of these requirements are not met I will have to change ur gender bc im broke and is the only way to threaten u >:)
-      </p>
+      <p>Mohit isn't just big—bro is astronomically massive. His aura alone crashed the servers and made Ohio file a restraining order. Officially certified by The Aura King (Antonio) with +999999 aura, infinite sigma, and legendary drip. Enter this website at your own risk. 🗿🔥</p>
     </section>
 
     <section class="contact">
@@ -244,7 +243,16 @@
   <script>
     // Add more photos here later — just add a new src to this list.
     const photos = [
-      "photo1.png"
+      "photo1.png",
+      "photo2.webp",
+      "Photo3.png",
+      "Photo4.png",
+      "Photo5.png",
+      "Photo6.png",
+      "Photo7.png",
+      "Photo8.png",
+      "Photo9.png",
+      "Photo10.png"
     ];
 
     const gallery = document.getElementById('gallery');
@@ -254,6 +262,7 @@
       const img = document.createElement('img');
       img.src = src;
       img.alt = '';
+      img.onerror = () => card.remove();
       card.appendChild(img);
       gallery.appendChild(card);
     });
